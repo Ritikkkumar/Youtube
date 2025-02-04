@@ -1,0 +1,133 @@
+iframe{
+    border-radius: 20px;
+}
+.videodetailmain{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    
+}
+.videodetailtitle{
+    font-weight: bold;
+    font-size:28px;
+}
+.belowtitle{
+    display: flex;
+    gap:15px;
+    margin-top: 10px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:2px solid black;
+}
+.channelname{
+    font-weight: bold;
+    font-size: large;
+}
+.subscribe{
+    height:35px;
+    width:100px;;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.likedislike{
+    height:35px;
+    width:100px;    
+    border-radius: 30px;
+    color: black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 180px;
+}
+.share{
+    height:35px;
+    width:100px;    
+    border-radius: 30px;
+    color: black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+    font-weight: bold;
+}
+.download{
+    height:35px;
+    width:115px;    
+    border-radius: 30px;
+    color: black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+    font-weight: bold;
+}
+.threedots{
+    height:35px;
+    width:35px;    
+    border-radius: 50%;
+    color: black;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.belowtitle2{
+    height:fit-content;
+    width:850px;
+    border-radius: 20px;
+    background-color: gray;
+    margin-top: 10px;
+}
+.description{
+    font-weight: bold;
+    padding: 20px;
+}
+.comments{
+    margin-top: 25px;
+}
+.commentscounts{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.counts{
+    font-weight: bold;
+    font-size: 25px;
+}
+.sort{
+    display: flex;
+    font-weight: bold;
+    gap:10px;
+    font-size: large;
+}
+#add{
+    border:none;
+    border-bottom: 2px solid black;
+    width: 850px;
+    margin-top: 35px;
+}
+.addbutton{
+    height:35px;
+    width:125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 700px;
+    font-weight: bold;
+}

@@ -1,0 +1,82 @@
+.createmaintwo{
+    width:1200px;
+    height:800px;
+    border: 2px solid black;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position:relative;
+    font-weight: bold;
+
+}
+.createmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coverimage{
+    width:1200px;
+    height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border: 2px solid black;
+}
+.profileimage{
+    width:180px;
+    height:180px;
+    border-radius:50% ;
+    border: 2px solid black;
+    position: absolute;
+    top: 180px;
+    background-color: black;
+}
+.uploadimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+}
+.cim{
+    height: 250px;
+    width:1200px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.pim{
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.upload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.textinput{
+    height:30px;
+    width:400px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.nametext{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.descriptiontext{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.savebutton{
+    width:150px;
+    height:40px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 20px;
+}

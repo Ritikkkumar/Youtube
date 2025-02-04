@@ -1,0 +1,57 @@
+.channeldetailsmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.channeldetailsmaintwo{
+    height:800px;
+    width:1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+    border:2px solid black;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    font-weight: bold;
+}
+.channeldetailsinput{
+    height: 30px;
+    width: 400px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.savebuttontwo{
+    height:50px;
+    width:150px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.deletebutton{
+    height:50px;
+    width:150px;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+.opptions{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:300px;
+}
+.videonamelabel{
+    margin-top: 50px;
+}
+.videodescriptionlabel{
+    margin-top: 50px;
+}
+
+

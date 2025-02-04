@@ -1,0 +1,43 @@
+.commentuser{
+    font-weight: bold;
+    font-size: 400;
+    margin-top: 25px;
+}
+.commenttext{
+    font-weight: bold;
+    font-size: 500;
+    margin-top: 5px;
+}
+.commentone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: relative;
+}
+.commentbox{
+    height:50px;
+    width:100px;
+    background-color: lightgrey;
+    position:absolute;
+    margin-left: 750px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    flex-direction: column;
+    
+}
+.dropoption{
+    height:30px;
+    width:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.dropoption:hover{
+    background-color: gray;
+}

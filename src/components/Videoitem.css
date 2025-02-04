@@ -1,0 +1,18 @@
+.videoitemimage{
+    height: 250px;
+    width:380px;
+    border-radius: 10px;
+}
+
+
+.videoitemtitle{
+    font-weight: bold;
+}
+.videoitemtitle2{
+    color: darkslategray;
+}
+@media (max-width:700px){
+    .videoitemimage{
+        width: 280px;
+    }
+}

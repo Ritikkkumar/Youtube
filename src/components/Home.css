@@ -1,0 +1,128 @@
+.sidebar{
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.hamitem{
+    display: flex;
+    gap:50px;
+    height:40px;
+    width:210px;
+    justify-content:flex-start;
+    align-items: center;
+    border-radius: 10px;
+}
+.hamitem:hover{
+    background-color: lightgray;
+}
+i{
+    margin-left: 10px;
+}
+.hamtext{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size:medium;
+    font-weight:bold;
+    
+}
+.filteritem{
+    height:35px;
+    border-radius:10px;
+    background-color: lightgrey;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 12px;
+}
+.filteritem:hover{
+    background-color: black;
+    color: white;
+}
+.filteritemtext{
+    margin: 10px;
+    font-weight: bold;
+    
+}
+.filteritemtext:hover{
+    color: white;
+}
+.filters{
+    display: flex;
+    gap:15px;
+}
+.main{
+    display: flex;
+    gap:30px;
+    
+}
+.videolists{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    column-gap: 15px;
+}
+.homeside{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: bold;
+}
+.homesidebox:hover{
+    background-color: lightslategray;
+
+}
+.homesidebox{
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:50px;
+    width:100px
+}
+.homesidetext{
+    padding: 5px;
+}
+Link{
+    text-decoration: none;
+    color: black;
+}
+@media (max-width:700px) {
+    .videolists{
+        display: flex;
+        gap: 15px;
+        
+        padding-top: 40px;
+        column-gap: 15px;
+        flex-direction: column;
+    }
+    .main{
+        width:650px;
+    }
+    .filters{
+        width: 400px;
+        overflow: scroll;
+    }
+    .filteritemtext{
+        font-size: 10px;
+    }
+    .filteritem
+    {
+        width: fit-content;
+        height: fit-content;
+        display: none;
+    }
+    .homeside{
+        width: 40px;
+    }
+    .homesidebox{
+        width:20px;
+        font-size: smaller;
+    }
+    .homesidetext{
+        padding: 1px;
+    }
+}
